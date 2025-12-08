@@ -20,6 +20,12 @@ public class UserController {
     @Autowired
     private UserRepo userRepo;
     
+    @GetMapping("/hello")
+    public String getHello() {
+        System.out.println("Getting hello");
+        return "Hello World!";
+    }
+    
     @GetMapping("/users") // Read
     public List<User> getAllUsers() {
         System.out.println("Getting All users from database");

@@ -15,9 +15,11 @@ import java.util.List;
 @RestController
 public class User1Resource {
 
+	
     @Autowired
     private User1Repo user1Repo;
 
+    /**
     @GetMapping("/users1") // Read
     public List<User1> getAllUsers() {
         System.out.println("Getting All users from database");
@@ -37,10 +39,12 @@ public class User1Resource {
         System.out.println("Getting All users from database");
         user1Repo.deleteById(id);
     }
-
+	
+	
     @GetMapping("/hello")
     public String getHello() {
         System.out.println("Getting hello");
         return "Hello World!";
     }
+    */
 }
