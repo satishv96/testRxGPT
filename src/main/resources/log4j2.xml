@@ -11,7 +11,7 @@
         <!-- File log path defined here -->
         <RollingFile name="FileAppender"
                      fileName="/opt/app/backend/rxgpt-healthcare-svc/logs/RxGPTHealthCare-svc.log"
-                     filePattern="/var/logs/myservice/app-%d{yyyy-MM-dd}-%i.log.gz">
+                     filePattern="/opt/app/backend/rxgpt-healthcare-svc/logs/RxGPTHealthCare-svc-%d{yyyy-MM-dd}-%i.log.gz">
 
             <PatternLayout>
                 <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n</pattern>
