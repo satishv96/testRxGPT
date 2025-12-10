@@ -1,11 +1,7 @@
-com\cfg\testRxGPT\model\Appointments.class
-com\cfg\testRxGPT\endpoint\UserProfileController.class
-com\cfg\testRxGPT\repo\UserRepo.class
-com\cfg\testRxGPT\TestRxGptApplication.class
-com\cfg\testRxGPT\repo\UserProfileRepo.class
 com\cfg\testRxGPT\endpoint\UserController.class
-com\cfg\testRxGPT\repo\User1Repo.class
-com\cfg\testRxGPT\model\User1.class
-com\cfg\testRxGPT\model\UsersProfile.class
-com\cfg\testRxGPT\endpoint\User1Resource.class
+com\cfg\testRxGPT\model\Appointments.class
+com\cfg\testRxGPT\repo\UserRepo.class
+com\cfg\testRxGPT\repo\AppointmentsRepo.class
 com\cfg\testRxGPT\model\User.class
+com\cfg\testRxGPT\endpoint\AppointmentsController.class
+com\cfg\testRxGPT\TestRxGptApplication.class
